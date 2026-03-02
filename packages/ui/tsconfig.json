@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    /* Linguagem e ambiente */
+    "target": "ES2019",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    /* React / JSX */
+    "jsx": "react-jsx",
+    /* Módulos */
+    "module": "Node16",
+    "moduleResolution": "node16",
+    /* Tipagem */
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    /* Interop */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    /* Imports */
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    /* Build */
+    "noEmit": true,
+    /* Paths (opcional, mas recomendado) */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
