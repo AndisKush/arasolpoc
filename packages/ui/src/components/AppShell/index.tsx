@@ -101,7 +101,7 @@ export const AppShell = ({
             alignItems: "center",
           }}
         >
-          {!sidebarCollapsed && <strong>Orion</strong>}
+          {!sidebarCollapsed && <strong>LinkApi</strong>}
           <Button
             variant="outline"
             onClick={onToggleSidebar}
