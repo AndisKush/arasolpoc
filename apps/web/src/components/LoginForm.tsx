@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Input, ErrorText, Stack, Caption } from '@andisds/ui';
 import type { LoginCredentials } from '../types';
+import logoUrl from '../assets/logo.png';
 
 interface LoginFormProps {
     onSubmit: (credentials: LoginCredentials) => Promise<void>;
@@ -38,7 +39,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onSubmit, isLoading }) => 
             <Stack gap={6}>
                 <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '8px' }}>
                     <img
-                        src="/src/assets/logo.png"
+                        src={logoUrl}
                         alt="Arasol Logo"
                         style={{
                             height: '60px',
