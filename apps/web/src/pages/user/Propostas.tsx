@@ -403,7 +403,7 @@ export const Propostas: React.FC = () => {
             <TopBar>
                 <h2 style={{ margin: 0, color: '#0f172a' }}>Gestão de Oportunidades</h2>
                 <Button variant="primary" onClick={() => setIsSelectFlowModalOpen(true)}>
-                    <Plus size={18} style={{ marginRight: 8 }} /> Adicionar Opportunity
+                    <Plus size={18} style={{ marginRight: 8 }} /> Adicionar Oportunidade
                 </Button>
             </TopBar>
 
