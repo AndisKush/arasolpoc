@@ -28,11 +28,6 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onSubmit, isLoading }) => 
         }
     };
 
-    const fillAdmin = () => {
-        setEmail('admin@linkservice.com');
-        setPassword('admin123');
-    };
-
     const fillUser = () => {
         setEmail('user@linkservice.com');
         setPassword('user123');
